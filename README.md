@@ -1,4 +1,4 @@
-# useCallbackPrompt
+# react-use-callback-prompt
 
 A React custom hook designed to intercept navigation events and display a confirmation prompt before allowing users to navigate away
 
@@ -11,13 +11,13 @@ https://www.npmjs.com/packages/react-use-callback-prompt
 Install the package using npm or yarn:
 
 ```sh
-npm install use-callback-prompt
+npm install react-use-callback-prompt
 ```
 
 or
 
 ```sh
-yarn add use-callback-prompt
+yarn add react-use-callback-prompt
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ yarn add use-callback-prompt
 
 ```tsx
 import React, { useState } from 'react';
-import { useCallbackPrompt } from 'use-callback-prompt';
+import { useCallbackPrompt } from 'react-use-callback-prompt';
 
 const MyComponent = () => {
     const [isBlocking, setIsBlocking] = useState(false);
@@ -66,3 +66,4 @@ export default MyComponent;
 ## License
 
 MIT
+

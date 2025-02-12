@@ -1,6 +1,6 @@
 {
   "name": "react-use-callback-prompt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React hook to block browser navigation using React Router",
   "keywords": ["react", "react-router-dom", "hooks"],
   "license": "MIT",
