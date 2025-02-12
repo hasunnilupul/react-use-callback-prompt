@@ -36,7 +36,8 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref }}
+          token: ${{ secrets.GH_TOKEN }}
+          tag_name: ${{ github.ref_name }}
           name: Release ${{ env.VERSION }}
           body: "🚀 New version **${{ env.VERSION }}** is live! Check out the latest updates."
           draft: false
