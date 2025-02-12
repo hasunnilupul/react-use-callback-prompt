@@ -5,6 +5,10 @@
   "keywords": ["react", "react-router-dom", "hooks"],
   "license": "MIT",
   "author": "Nilupul Perera <hasunnilupul16@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasunnilupul/react-use-callback-prompt"
+  },
   "type": "commonjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
