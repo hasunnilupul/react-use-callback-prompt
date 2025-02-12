@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "build": "babel src --out-dir dist --copy-files",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "publish:latest": "npm publish --tag=latest"
   },
   "peerDependencies": {
     "react": "^18.3.1",
