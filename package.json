@@ -1,6 +1,6 @@
 {
   "name": "react-use-callback-prompt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React hook to block browser navigation using React Router",
   "keywords": ["react", "react-router-dom", "hooks"],
   "license": "MIT",
@@ -18,7 +18,7 @@
   "scripts": {
     "build": "babel src --out-dir dist --copy-files",
     "prepublishOnly": "npm run build",
-    "publish:latest": "npm publish --tag=latest"
+    "publish:latest": "npm publish --tag=latest --access public"
   },
   "peerDependencies": {
     "react": "^18.3.1",
