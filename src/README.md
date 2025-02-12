@@ -52,7 +52,7 @@ export default MyComponent;
 
 ## API
 
-### `const [showPrompt, confirmNavigation, cancelNavigation] = useCallbackPrompt(enable: boolean);`
+### `const [showPrompt, confirmNavigation, cancelNavigation] = useCallbackPrompt(block: boolean);`
 
 - `block: boolean` - Determines whether navigation should be blocked.
 - `showPrompt: boolean` - Indicates whether the navigation confirmation prompt should be displayed.
